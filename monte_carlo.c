@@ -52,7 +52,7 @@ float mc_pi(int n)
     }
     square_point++;
   }  
-  float pi = (4*circle_point/square_point);
+  float pi = 4.0*(circle_point/square_point);
   return pi;
 } 
  
